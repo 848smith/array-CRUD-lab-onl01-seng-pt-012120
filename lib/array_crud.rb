@@ -1,4 +1,4 @@
-array=["I", "am", "always", "learning"]
+phrase=["I", "am", "always", "learning"]
 
 def create_an_empty_array
   []
@@ -9,11 +9,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array << "arrays!"
+  phrase << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  add_element_to_end_of_array.unshift("wow")
+  phrase.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
