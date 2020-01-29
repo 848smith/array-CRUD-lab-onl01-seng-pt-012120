@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  phrase << "arrays!"
+  create_an_array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  phrase.unshift("wow")
+  
 end
 
 def remove_element_from_end_of_array(array)
